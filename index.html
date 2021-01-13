@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	
+	<meta name="viewport" content="width = devie-width, initial-scale = 1.0">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+	<title> Travel landing page </title>
+
+</head>
+<body>
+	<section class="showcase">
+		<header>
+			<h2 class="logo">Travel</h2>
+			<div class="toggle"></div>
+		</header>
+
+
+		<video src="explore.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+
+		<div class="text">
+			<h2>Never stop</h2>
+			<h3>to Exploring The World</h3>
+			<p>Put resources into a long period of awesome occasion recollections with the most confided in travel service in Himachal. Voyaging Mountains is a travel service situated in Shimla effectively obliging the movement needs of individuals from various districts over India for as far back as 5 years. Being neighborhood our specialists have gained notoriety for serving customers with the best travel benefits at the most sensible costs. We guarantee you the most excellent, solace, and security that one searches for in his excursion.</p>
+			<a href="#">Explore</a>
+		</div>
+
+		<ul class="social">
+			<li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+      		
+      		<li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+      		
+      		<li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+		</ul>
+	</section>
+
+
+	<div class="menu">
+		<ul>
+			<li><a href="#">Home</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Destinantion</a></li>
+			<li><a href="#">Blog</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+	</div>
+
+	<script type="text/javascript">
+		const menuToggle = document.querySelector('.toggle');
+      	const showcase = document.querySelector('.showcase');
+
+      	menuToggle.addEventListener('click', () => {
+        	menuToggle.classList.toggle('active');
+        	showcase.classList.toggle('active');
+      	})
+	</script>
+
+</body>
+</html>
